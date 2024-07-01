@@ -1,0 +1,18 @@
+[2024-07-01T14:10:54.467512+00:00] main.INFO: Source table payment_services_order_status_data_production_submitted_hash does not exist. Skipping data migration... [] []
+[2024-07-01T14:12:26.777659+00:00] main.ERROR: crontab -l 2>/dev/null 2>&1
+no crontab for app [] []
+[2024-07-01T14:12:26.779252+00:00] main.ERROR: crontab -l 2>/dev/null 2>&1
+no crontab for app [] []
+[2024-07-01T14:12:26.785242+00:00] main.INFO: echo "
+#~ MAGENTO START 69dd2b02e1f3a65918182048ea4e29979a849d8942e8f53ed20a4bf10e529b36
+* * * * * /usr/local/bin/php /var/www/html/bin/magento cron:run 2>&1 | grep -v \"Ran jobs by schedule\" >> /var/www/html/var/log/magento.cron.log
+#~ MAGENTO END 69dd2b02e1f3a65918182048ea4e29979a849d8942e8f53ed20a4bf10e529b36
+" 2>&1 | crontab - 2>&1
+ [] []
+[2024-07-01T14:12:52.447602+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-07-01T14:12:52.447826+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-07-01T14:12:52.447904+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-07-01T14:12:52.447946+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-07-01T14:12:52.447972+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-07-01T14:12:52.447994+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-07-01T14:17:18.801042+00:00] main.INFO: Source table payment_services_order_status_data_production_submitted_hash does not exist. Skipping data migration... [] []
